@@ -1,0 +1,83 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Status Page</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: center;
+            }
+            th {
+                background-color: #f2f2f2;
+            }
+            video {
+                max-width: 100%;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Device Detail</h1>
+        <table>
+            <tr>
+                <th>Device</th>
+                <th>vCPUs</th>
+                <th>Memory (GiB)</th>
+                <th>GPU count</th>
+                <th>GPU Memory</th>
+                <th>GPU Name</th>
+                <th>Pricing</th>
+            </tr>
+            <tr>
+                <td>g5.8xlarge</td>
+                <td>32</td>
+                <td>128</td>
+                <td>1</td>
+                <td>24</td> 
+                <td>nvidia a10g</td>
+                <td>$ 2.448/hour</td>
+            </tr>
+        </table>
+        
+        <h2>Question</h2>
+        <p>Discuss Python's approach to error handling and the importance of exception handling mechanisms in robust application development?</p>
+        
+        <h3>Videos</h3>
+        <table>
+            <tr>
+                <th>preprocess</th>
+                <th>full</th>
+                <th>extfull</th>
+                <th>crop</th>
+                <th>extcrop</th>
+                <th>resize</th>
+
+            </tr>
+            <tr>
+                <td>Generation Time</td>
+                <td>20.33 sec</td>
+                <td>20.29 sec</td>
+                <td>13.37 sec</td>
+                <td>13.52 sec</td>
+                <td>13.34 sec</td>
+
+            </tr>
+            <tr>
+                <td>video</td>
+                <td><video controls><source src="/home/growlt194/Downloads/sadtalker_preprocess_results/full_converted.mp4" type="video/mp4"></video></td>
+                <td><video controls><source src="/home/growlt194/Downloads/sadtalker_preprocess_results/extfull_converted.mp4" type="video/mp4"></video></td>
+                <td><video controls><source src="/home/growlt194/Downloads/sadtalker_preprocess_results/crop_converted.mp4" type="video/mp4"></video></td>
+                <td><video controls><source src="/home/growlt194/Downloads/sadtalker_preprocess_results/extcrop_converted.mp4" type="video/mp4"></video></td>
+                <td><video controls><source src="/home/growlt194/Downloads/sadtalker_preprocess_results/resize_converted.mp4" type="video/mp4"></video></td>
+
+            </tr>
+        </table>
+    </body>
+    </html>
+    
